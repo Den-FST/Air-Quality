@@ -2,6 +2,8 @@
 #include <WiFi.h>
 #include <ArduinoHA.h>
 
+#include <secret.h>
+
 // Libraries for OLED Display
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -11,8 +13,8 @@
 
 #define LED_PIN 2
 #define BROKER_ADDR IPAddress(192, 168, 1, 222)
-#define WIFI_SSID "Xiaomi"
-#define WIFI_PASSWORD "926810D20D"
+// #define WIFI_SSID ""
+// #define WIFI_PASSWORD ""
 
 WiFiClient client;
 HADevice device;
